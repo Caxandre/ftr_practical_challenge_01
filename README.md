@@ -18,23 +18,6 @@ This project was developed as a **practical challenge** for the **Technical and 
 - **Docker & Docker Compose** — containerization
 - **pnpm** — package manager
 
-## Project Structure
-
-```text
-brevly/
-├── backend/
-│   ├── src/
-│   ├── dist/
-│   ├── Dockerfile
-│   ├── compose.yaml
-│   └── .env
-├── frontend/        # Frontend (React)
-│   ├── src/
-│   ├── public/
-│   └── vite.config.ts
-└── README.md
-```
-
 ## Deployment / Execution Flow
 
 1. Install dependencies for both **backend** and **frontend**.
@@ -66,4 +49,3 @@ To enable this feature, configure the related environment variables in the `.env
   pnpm db:migrate
   ```
 - The project uses Drizzle ORM for migration versioning and execution.
-- Frontend and backend are independent applications but can be run together using Docker Compose.
