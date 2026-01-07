@@ -20,7 +20,7 @@ This project was developed as a **practical challenge** for the **Technical and 
 
 ## Deployment / Execution Flow
 
-1. Install dependencies for both **backend** and **frontend**.
+1. Install dependencies for both **server** and **web**.
 2. Configure the `.env` file with database, Cloudflare, and other required environment variables.
 3. Start the containers using **Docker Compose**.
 4. Run the migrations to create the database tables.
@@ -28,7 +28,7 @@ This project was developed as a **practical challenge** for the **Technical and 
 
 ## Tests
 
-To run backend tests, navigate to the `backend` directory and execute:
+To run backend tests, navigate to the `server` directory and execute:
 
 ```bash
 pnpm test
